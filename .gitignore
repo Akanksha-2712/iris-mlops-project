@@ -1,0 +1,1 @@
+.venv/\n__pycache__/\n.pytest_cache/\nmlruns/\nartifacts/\ndata/iris.csv\n.dvc/cache/\n

@@ -1,0 +1,23 @@
+stages:
+  prepare:
+    cmd: python src/prepare_data.py
+    deps:
+      - src/prepare_data.py
+    outs:
+      - data/iris.csv
+  train:
+    cmd: python src/train.py
+    deps:
+      - src/train.py
+      - data/iris.csv
+      - params.yaml
+    params:
+      - random_state
+      - test_size
+      - n_estimators
+      - max_depth
+    outs:
+      - artifacts/iris_model.joblib
+    metrics:
+      - artifacts/metrics.json:
+          cache: false

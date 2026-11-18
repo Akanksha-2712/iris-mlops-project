@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/Admin/Downloads/iris_mlops_project/iris_mlops_project/mlruns/1/models/m-0dbf1d9c7b87473c976e44c16538613c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.18.0
+model_id: m-0dbf1d9c7b87473c976e44c16538613c
+model_size_bytes: 1823341
+model_uuid: m-0dbf1d9c7b87473c976e44c16538613c
+prompts: null
+run_id: 6b29941c8ebb4eec8b0e108bdf761386
+utc_time_created: '2026-11-18 15:52:04.199881'
