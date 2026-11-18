@@ -1,1 +1,11 @@
-.venv/\n__pycache__/\n.pytest_cache/\nmlruns/\nartifacts/\ndata/iris.csv\n.dvc/cache/\n
+.venv/\n__pycache__/\n.pytest_cache/\nmlruns/\nartifacts/\ndata/iris.csv\n.dvc/cache/\n# Python temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE files
+.vscode/
